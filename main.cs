@@ -26,7 +26,7 @@ class Program {
      // Read and convert the entered value to string
      miles = Convert.ToDouble(Console.ReadLine());
     
-     // Use the cacluatio formula to calculate the total
+     // Use the calcultion formula to calculate the total
     total = calculateresults(base_rate, hours, hourly_rate, miles, rate_per_mile);
     // Print out the total moving fee stored in the total variable to the console
     Console.WriteLine("$"+ total);
